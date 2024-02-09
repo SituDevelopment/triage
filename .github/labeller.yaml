@@ -13,7 +13,7 @@ dependencies:
 
 documentation:
   - changed-files:
-      - any-glob-to-any-file: ["README.md", "*-man"]
+      - any-glob-to-any-file: ["README.md"]
 
 github_actions:
   - changed-files:
