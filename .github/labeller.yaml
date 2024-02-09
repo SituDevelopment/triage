@@ -1,0 +1,20 @@
+bug:
+  - head-branch: ["bug/*"]
+
+chore:
+  - head-branch: ["chore/*"]
+
+enhancement:
+  - head-branch: ["feature/*"]
+
+dependencies:
+  - changed-files:
+      - any-glob-to-any-file: ["package.json", "package-lock.json"]
+
+documentation:
+  - changed-files:
+      - any-glob-to-any-file: ["README.md", "*-man"]
+
+github_actions:
+  - changed-files:
+      - any-glob-to-any-file: [".github/workflows/*.yaml"]
